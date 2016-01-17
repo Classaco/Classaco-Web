@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Classaco</title>
+
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="classaco_css.css">
+  </head>
+  
+  <body>
+    
+	<!-- Navigation Bar -->
+	<div class="navbar navbar-default navbar-fixed-top">
+	
+		<div class="container">
+		
+			<div class="navbar-header">
+				
+				<!-- Collapse Function and Button -->
+				<button class="navbar-toggle" data-toggle="collapse"
+				data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+				<!-- Logo -->
+				<a class="navbar-brand" href="index.html">Classaco</a>
+			
+			</div><!--navbar-header-->
+			
+			<!-- Tabs -->
+			<div class="collapse navbar-collapse">
+				
+				<!--Main Tabs-->
+				<ul class="nav navbar-nav navbar-center">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="">Class Pages</a></li>
+					<li><a href="">Messages</a></li>
+				</ul>
+				
+				<!--Tabs on Right-->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="">About Us</a></li>
+					<li><a href="">Contact Us</a></li>					
+				</ul>
+			
+			</div><!--navbar-collapse-->
+		</div><!--container-->
+	</div><!--navbar-->
+	
+	
+	
+	<div class="container contentContainer" id="homeContainer">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3 col-sx-12 center">
+				<h1 class="topContent">Welcome to Classaco</h1>
+				
+				<h3>Classroom Assistance, Collaboration and Organization</h3>
+				
+				<br />
+				<p class="lead">We are working to change the way college students connect with each other.
+				This site is used to find people directly in your class to ask help on homework or to study, 
+				or to directly connect you with any college student across the nation.</p>
+				
+				<p class="lead">This completely free service is your ticket for academic success.</p>
+				
+				<a href="" class="center btn btn-success" role="button">Sign Up Now!</a>
+			</div><!--col-sm-6-->
+		</div><!--row-->
+	</div><!--container-->
+
+	
+	<!--Google Analytics-->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-72498923-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	
+	<!--Bootstrap Javascript-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+	<!--JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	<script>
+		/* for contentContainer, height is window height */
+		$(".contentContainer").css("min-height",$(window).height());
+	</script>
+	
+  </body>
+</html>
